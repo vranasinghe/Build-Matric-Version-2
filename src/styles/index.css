@@ -141,4 +141,24 @@
   box-shadow: 0 6px 18px rgba(24, 168, 224, 0.45) !important;
   transform: translateY(-1px) !important;
 }
+
+/* BuildMetric Official Brand Design Tokens */
+:root {
+  --bm-midnight-navy: #101D2B;
+  --bm-architectural-blue: #18A8E0;
+  --bm-steel-blue: #2C5E8A;
+  --bm-charcoal: #111820;
+  --bm-slate-grey: #445363;
+  --bm-warm-white: #FAFAF8;
+  --bm-soft-cool-white: #EEF2F4;
+  --bm-muted-gold: #C69A55;
+}
+
+/* Service Card Icon Image Enhancement */
+.service-card .service-card_icon img,
+.service-card.style4 .service-card_icon img {
+  filter: drop-shadow(0 2px 8px rgba(24, 168, 224, 0.2));
+  transition: transform 0.3s ease;
+}
+
 

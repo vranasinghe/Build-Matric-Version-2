@@ -163,7 +163,7 @@ body .disable-scroll {
 /* home two testimonial css */
 .testimonial-area-2 .testi-slider2 .slick-dots li.slick-active button {
   width: 26px !important;
-  background-color: #001F5B !important;
+  background-color: #18A8E0 !important;
 }
 
 .testimonial-area-2 .testi-slider2 .slick-dots li button {
@@ -254,7 +254,7 @@ textPath {
 .service-area-6 li.slick-active {
   width: 8px !important;
   height: 8px !important;
-  background-color: #001F5B !important;
+  background-color: #18A8E0 !important;
   border-radius: 50%;
 }
 
@@ -315,7 +315,7 @@ textPath {
 .home-two-slider-navigation-dots .custom-dots li.slick-active button {
   width: 50px !important;
   height: 2px !important;
-  background-color: #001F5B !important;
+  background-color: #18A8E0 !important;
 }
 
 
@@ -635,12 +635,12 @@ textPath {
 
 /* Shop Page Filter css */
 .rc-slider-handle {
-  background-color: #001F5B !important;
-  border: solid 1px #001F5B !important;
+  background-color: #18A8E0 !important;
+  border: solid 1px #18A8E0 !important;
 }
 
 .rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
-  border-color: #001F5B !important;
+  border-color: #18A8E0 !important;
   box-shadow: none !important;
 }
 
@@ -753,7 +753,7 @@ textPath {
 }
 
 .custom-border.accordion-card:has(.accordion-button:not(.collapsed)) {
-  border-top: 2px solid #001F5B !important;
+  border-top: 2px solid #18A8E0 !important;
 }
 
 .process-fixed-height {
@@ -778,7 +778,7 @@ textPath {
 }
 
 .homeTwo-testimonial-dots>.slick-dots>li.slick-active>button {
-  background-color: #001F5B !important;
+  background-color: #18A8E0 !important;
 }
 
 .homeTwo-custom-accordion-card>.accordion-card:has(.accordion-button:not(.collapsed)) {
@@ -844,7 +844,7 @@ textPath {
 .custom-dot2>.slick-dots>li {
   position: relative;
   padding: 7px;
-  color: #001F5B;
+  color: #18A8E0;
 }
 
 .custom-dot2>.slick-dots>li:nth-child(2) {
@@ -859,7 +859,7 @@ textPath {
 }
 
 .custom-dot2>.slick-dots>li.slick-active>button {
-  background-color: #001F5B !important;
+  background-color: #18A8E0 !important;
 }
 
 .custom-dot2>.slick-dots>li.slick-active::before {
@@ -913,7 +913,7 @@ span.current,
 
 .custom-form-design>.nice-select.open {
   transition: all 0.2s ease-in-out;
-  outline: 1px solid #001F5B;
+  outline: 1px solid #18A8E0;
 }
 
 
@@ -957,7 +957,7 @@ i.ri-star-fill {
 
 /* footer Two css */
 .btn-footer-two {
-  background-color: #001F5B !important;
+  background-color: #101D2B !important;
   color: #ffffff !important;
   padding: 19px 30px !important;
   display: inline-flex !important;
@@ -1050,7 +1050,7 @@ i.ri-star-fill {
   border: none;
   border-radius: 0px !important;
   text-align: center;
-  background-color: #001F5B !important;
+  background-color: #101D2B !important;
   color: #ffffff !important;
   font-family: var(--title-font);
   font-size: 16px;
@@ -1283,7 +1283,7 @@ i.ri-star-fill {
 }
 
 .service-card-dots .slick-active button {
-  background-color: #001F5B;
+  background-color: #18A8E0;
 }
 
 /* landing Page Sidebar CSS */
@@ -2104,7 +2104,7 @@ i.ri-star-fill {
 
 .hero-1 .hero-4-number-tab .tab-btn.active,
 .hero-1 .hero-4-number-tab .tab-btn:hover {
-  color: var(--theme-color, #ea5501);
+  color: var(--theme-color, #18A8E0);
   transform: scale(1.15);
 }
 
@@ -2130,7 +2130,7 @@ i.ri-star-fill {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: var(--theme-color, #ea5501) !important;
+  background-color: var(--theme-color, #18A8E0) !important;
   color: #ffffff !important;
   transition: all 0.3s linear;
   z-index: 1;
@@ -2179,7 +2179,7 @@ i.ri-star-fill {
   left: 0;
   bottom: 0;
   right: 0;
-  background: var(--theme-color, #ea5501);
+  background: var(--theme-color, #18A8E0);
   content: "";
   border-radius: 50%;
   z-index: -1;
@@ -2253,9 +2253,9 @@ i.ri-star-fill {
 }
 
 .hero-1 .slider-btn-wrap .icon-box .slick-arrow:hover {
-  background: var(--theme-color, #ea5501) !important;
+  background: var(--theme-color, #18A8E0) !important;
   color: #ffffff !important;
-  border-color: var(--theme-color, #ea5501) !important;
+  border-color: var(--theme-color, #18A8E0) !important;
 }
 
 /* Service Card Button and Icon Visibility Fix */
@@ -2326,15 +2326,15 @@ i.ri-star-fill {
 
 .why-tab-wrap .nav-item .nav-link.active {
   border-radius: 0px !important;
-  background-color: #001F5B !important;
+  background-color: #101D2B !important;
   color: #ffffff !important;
-  box-shadow: 0px 8px 20px rgba(0, 31, 91, 0.25) !important;
+  box-shadow: 0px 8px 20px rgba(16, 29, 43, 0.25) !important;
 }
 
 .why-tab-wrap .nav-item .nav-link:not(.active):hover {
   background-color: #ffffff !important;
-  color: #001F5B !important;
-  box-shadow: 0px 6px 18px rgba(0, 31, 91, 0.12) !important;
+  color: #18A8E0 !important;
+  box-shadow: 0px 6px 18px rgba(24, 168, 224, 0.2) !important;
 }
 
 /* All New Style Here End  */
