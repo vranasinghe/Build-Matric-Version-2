@@ -1,0 +1,144 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@600;700&display=swap');
+ 
+
+@import "/assets/css/bootstrap.min.css";
+@import "/assets/css/bootstrap.rtl.min.css";
+@import "/assets/css/fontawesome.min.css";
+@import "/assets/css/nice-select.min.css";
+@import "/assets/css/remixicon.css";
+@import "/assets/css/slick.min.css";
+@import "/assets/css/style.css";
+@import "/assets/css/react-adjustment.css";
+
+/* Service Details FAQ Accordion Styling (matching Home 2 FAQ UI) */
+.service-faq-accordion .accordion-card {
+  margin-bottom: 12px !important;
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 4px !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+  transition: all 0.25s ease !important;
+}
+
+.service-faq-accordion .accordion-card:has(.accordion-button:not(.collapsed)) {
+  background: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-button {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px !important;
+  min-height: 56px !important;
+  padding: 14px 50px 14px 20px !important;
+  color: #1a202c !important;
+  background-color: transparent !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-button:not(.collapsed) {
+  color: #001f5b !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-button:after {
+  content: "\ea13" !important;
+  font-family: var(--icon-font) !important;
+  font-size: 18px !important;
+  color: #64748b !important;
+  position: absolute !important;
+  top: 50% !important;
+  right: 18px !important;
+  transform: translateY(-50%) !important;
+  width: 28px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-button:not(.collapsed):after {
+  content: "\f1af" !important;
+  color: #ff6600 !important;
+  transform: translateY(-50%) rotate(180deg) !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-body {
+  padding: 0 20px 18px 20px !important;
+  background: transparent !important;
+  border: none !important;
+  margin-top: 0 !important;
+}
+
+.service-faq-accordion .accordion-card .accordion-body .faq-text {
+  font-size: 14.5px !important;
+  line-height: 1.6 !important;
+  color: #555555 !important;
+  margin: 0 !important;
+}
+
+/* =========================================================
+   Home 4 Newsletter - Navy Blue Theme (Matching Home 1 Footer)
+   ========================================================= */
+.subscribe-area-4.navy-theme {
+  position: relative !important;
+  background-color: #0c1527 !important;
+  background-image: 
+    linear-gradient(135deg, rgba(12, 21, 39, 0.94) 0%, rgba(8, 15, 29, 0.96) 100%),
+    url('/assets/img/footer-v1-pattern.png'),
+    url('/assets/img/bg/subscribe-bg4-1.png') !important;
+  background-repeat: no-repeat, no-repeat, no-repeat !important;
+  background-size: cover, cover, cover !important;
+  background-position: center, center, center !important;
+  border-radius: 8px !important;
+  box-shadow: 0 20px 45px rgba(12, 21, 39, 0.35) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.subscribe-area-4.navy-theme .subscribe-box_title {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.subscribe-area-4.navy-theme .newsletter-form {
+  background: #ffffff !important;
+  border-radius: 4px !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+  padding: 8px 8px 8px 16px !important;
+}
+
+.subscribe-area-4.navy-theme .newsletter-form input {
+  color: #0c1527 !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.subscribe-area-4.navy-theme .newsletter-form input::placeholder {
+  color: #718096 !important;
+}
+
+.subscribe-area-4.navy-theme .newsletter-form .btn.style3 {
+  background-color: #001F5B !important;
+  color: #ffffff !important;
+  border-radius: 4px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.subscribe-area-4.navy-theme .newsletter-form .btn.style3:hover {
+  background-color: #002d80 !important;
+  box-shadow: 0 6px 18px rgba(0, 31, 91, 0.45) !important;
+  transform: translateY(-1px) !important;
+}
+
