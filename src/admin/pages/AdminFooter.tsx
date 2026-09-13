@@ -62,10 +62,10 @@ const AdminFooter: React.FC = () => {
     <form onSubmit={handleSave}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Footer Section
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Footer Components Editor
           </h2>
         </div>
@@ -89,7 +89,7 @@ const AdminFooter: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -126,10 +126,10 @@ const AdminFooter: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               1. Footer Navigation Quick Links ({formData.quickLinks.length} Links)
             </h3>
           </div>
@@ -138,7 +138,7 @@ const AdminFooter: React.FC = () => {
             onClick={addLink}
             style={{
               padding: "7px 15px",
-              background: "#f15a24",
+              background: "#18A8E0",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -158,7 +158,7 @@ const AdminFooter: React.FC = () => {
             <div key={link.id || idx} className="col-md-6">
               <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", padding: "14px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#001F5B" }}>
+                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#101D2B" }}>
                     Link #{idx + 1}
                   </span>
                   <button
@@ -206,7 +206,7 @@ const AdminFooter: React.FC = () => {
 
       {/* 2. Brand Bio & Copyright */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           2. Bio Summary & Copyright Notice
         </h3>
         <div className="row gy-3">
@@ -237,7 +237,7 @@ const AdminFooter: React.FC = () => {
 
       {/* 3. Footer Contact Information */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           3. Footer Direct Contact Info
         </h3>
         <div className="row gy-3">

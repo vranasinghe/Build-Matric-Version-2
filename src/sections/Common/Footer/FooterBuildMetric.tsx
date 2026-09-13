@@ -12,7 +12,7 @@ const FooterBuildMetric: React.FC = () => {
             style={{
                 position: "relative",
                 display: "block",
-                backgroundColor: "#0c1527",
+                backgroundColor: "#101D2B",
                 zIndex: 1,
                 overflow: "hidden",
             }}
@@ -135,7 +135,7 @@ const FooterBuildMetric: React.FC = () => {
                                                 transition: "all 0.3s ease",
                                             }}
                                             onMouseOver={(e) => {
-                                                e.currentTarget.style.backgroundColor = "#001F5B";
+                                                e.currentTarget.style.backgroundColor = "#18A8E0";
                                                 e.currentTarget.style.color = "#ffffff";
                                                 e.currentTarget.style.transform = "translateY(-3px)";
                                             }}
@@ -367,14 +367,14 @@ const FooterBuildMetric: React.FC = () => {
                                     key={label}
                                     to={to}
                                     style={{
-                                        color: label === "Admin Panel" ? "#f15a24" : "rgba(255, 255, 255, 0.7)",
+                                        color: label === "Admin Panel" ? "#18A8E0" : "rgba(255, 255, 255, 0.7)",
                                         fontSize: "15px",
                                         fontWeight: 600,
                                         textDecoration: "none",
                                         transition: "color 0.2s ease",
                                     }}
                                     onMouseOver={(e) => (e.currentTarget.style.color = "#ffffff")}
-                                    onMouseOut={(e) => (e.currentTarget.style.color = label === "Admin Panel" ? "#f15a24" : "rgba(255, 255, 255, 0.7)")}
+                                    onMouseOut={(e) => (e.currentTarget.style.color = label === "Admin Panel" ? "#18A8E0" : "rgba(255, 255, 255, 0.7)")}
                                 >
                                     {label}
                                 </Link>

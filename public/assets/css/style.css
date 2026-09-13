@@ -78,22 +78,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 :root {
-  --theme-color: #001F5B;
-  --title-color: #15161C;
-  --body-color: #737373;
-  --smoke-color: #FAFAFA;
-  --smoke-color2: #EBEBEB;
-  --smoke-color3: #F5F5F5;
+  --theme-color: #18A8E0;
+  --title-color: #111820;
+  --body-color: #445363;
+  --smoke-color: #FAFAF8;
+  --smoke-color2: #EEF2F4;
+  --smoke-color3: #EEF2F4;
   --smoke-color4: #F4F4F4;
   --smoke-color5: #F2F2F2;
-  --black-color: #202020;
+  --black-color: #101D2B;
   --gray-color: #232323;
   --white-color: #ffffff;
   --light-color: #9fa2ad;
-  --yellow-color: #FFB539;
+  --yellow-color: #C69A55;
   --success-color: #28a745;
   --error-color: #dc3545;
-  --border-color: rgba(21, 22, 28, 0.15);
+  --border-color: rgba(17, 24, 32, 0.15);
   --title-font: "Titillium Web", sans-serif;
   --body-font: "Archivo", sans-serif;
   --icon-font: remixicon !important;
@@ -128,7 +128,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgba(251, 212, 81, 0.1);
+  background: rgba(24, 168, 224, 0.1);
 }
 
 body::-webkit-scrollbar-thumb {

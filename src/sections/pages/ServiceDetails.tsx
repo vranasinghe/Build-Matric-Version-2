@@ -53,13 +53,13 @@ const ServiceDetails: React.FC = () => {
                     display: "inline-flex",
                     alignItems: "center",
                     gap: "8px",
-                    color: "#001F5B",
+                    color: "#18A8E0",
                     fontWeight: 700,
                     fontSize: "13px",
                     textTransform: "uppercase",
                     letterSpacing: "0.8px",
                     textDecoration: "none",
-                    borderBottom: "2px solid #001F5B",
+                    borderBottom: "2px solid #18A8E0",
                     paddingBottom: "2px",
                   }}
                 >
@@ -96,7 +96,7 @@ const ServiceDetails: React.FC = () => {
                     gap: "16px",
                     marginBottom: "24px",
                     padding: "18px 24px",
-                    backgroundColor: "#001F5B",
+                    backgroundColor: "#101D2B",
                     color: "#fff",
                   }}
                 >
@@ -131,7 +131,7 @@ const ServiceDetails: React.FC = () => {
                   style={{
                     padding: "24px 26px",
                     backgroundColor: "#ffffff",
-                    borderLeft: "4px solid #001F5B",
+                    borderLeft: "4px solid #18A8E0",
                     boxShadow: "0px 6px 20px rgba(0,0,0,0.05)",
                     borderRadius: "0px",
                     marginBottom: "28px",
@@ -143,7 +143,7 @@ const ServiceDetails: React.FC = () => {
                       fontWeight: 700,
                       textTransform: "uppercase",
                       letterSpacing: "1px",
-                      color: "#FF6600",
+                      color: "#18A8E0",
                       display: "flex",
                       alignItems: "center",
                       gap: "6px",
@@ -157,7 +157,7 @@ const ServiceDetails: React.FC = () => {
                     style={{
                       fontSize: "19px",
                       fontWeight: 700,
-                      color: "#001F5B",
+                      color: "#101D2B",
                       marginBottom: "12px",
                       fontFamily: "var(--title-font)",
                       lineHeight: "1.3",
@@ -201,7 +201,7 @@ const ServiceDetails: React.FC = () => {
                         fontWeight: 700,
                         textTransform: "uppercase",
                         letterSpacing: "1px",
-                        color: "#001F5B",
+                        color: "#18A8E0",
                         display: "flex",
                         alignItems: "center",
                         gap: "8px",

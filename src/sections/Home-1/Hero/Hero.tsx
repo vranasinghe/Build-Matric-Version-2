@@ -123,8 +123,8 @@ const Hero = () => {
           height: 52px;
           border-radius: 50%;
           background-color: #ffffff;
-          border: 2px solid #263b82;
-          color: #263b82;
+          border: 2px solid #18A8E0;
+          color: #18A8E0;
           font-size: 24px;
           display: flex;
           align-items: center;
@@ -143,11 +143,11 @@ const Hero = () => {
           right: 40px;
         }
         .hero-side-arrow:hover {
-          background-color: #263b82;
+          background-color: #18A8E0;
           color: #ffffff;
-          border-color: #263b82;
+          border-color: #18A8E0;
           transform: translateY(-50%) scale(1.1);
-          box-shadow: 0 8px 25px rgba(38, 59, 130, 0.45);
+          box-shadow: 0 8px 25px rgba(24, 168, 224, 0.45);
         }
         .hero-side-arrow:active {
           transform: translateY(-50%) scale(0.95);

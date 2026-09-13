@@ -106,10 +106,10 @@ const AdminServiceDetails: React.FC = () => {
     <form onSubmit={handleSave}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header: SERVICES &gt; Service Details
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Service Details Articles Editor
           </h2>
         </div>
@@ -133,7 +133,7 @@ const AdminServiceDetails: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -170,10 +170,10 @@ const AdminServiceDetails: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "20px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <label style={{ fontSize: "14px", fontWeight: 700, color: "#001F5B" }}>
+            <label style={{ fontSize: "14px", fontWeight: 700, color: "#101D2B" }}>
               Select Service Article To Edit ({services.length} Total Articles)
             </label>
           </div>
@@ -182,7 +182,7 @@ const AdminServiceDetails: React.FC = () => {
             onClick={addServiceArticle}
             style={{
               padding: "7px 15px",
-              background: "#f15a24",
+              background: "#18A8E0",
               color: "#fff",
               border: "none",
               fontWeight: 700,
@@ -205,9 +205,9 @@ const AdminServiceDetails: React.FC = () => {
               onClick={() => setSelectedIndex(idx)}
               style={{
                 padding: "10px 14px",
-                background: selectedIndex === idx ? "#001F5B" : "#f4f5f7",
+                background: selectedIndex === idx ? "#101D2B" : "#f4f5f7",
                 color: selectedIndex === idx ? "#ffffff" : "#333333",
-                border: selectedIndex === idx ? "2px solid #f15a24" : "1px solid #e0e2e8",
+                border: selectedIndex === idx ? "2px solid #18A8E0" : "1px solid #e0e2e8",
                 fontWeight: 700,
                 fontSize: "13px",
                 cursor: "pointer",
@@ -216,7 +216,7 @@ const AdminServiceDetails: React.FC = () => {
                 gap: "8px",
               }}
             >
-              <span style={{ color: selectedIndex === idx ? "#f15a24" : "#888" }}>{srv.num}</span>
+              <span style={{ color: selectedIndex === idx ? "#18A8E0" : "#888" }}>{srv.num}</span>
               {srv.tabTitle}
             </button>
           ))}
@@ -246,7 +246,7 @@ const AdminServiceDetails: React.FC = () => {
 
       {/* Editor for Selected Service Article */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           Article Details & Content [Update]
         </h3>
 
@@ -325,10 +325,10 @@ const AdminServiceDetails: React.FC = () => {
         <div style={{ borderTop: "1px solid #f0f1f4", paddingTop: "20px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
             <div>
-              <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+              <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                 CRUD
               </span>
-              <h4 style={{ fontSize: "15px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+              <h4 style={{ fontSize: "15px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                 Subsections & Deliverables ({selectedService.subsections.length} Items)
               </h4>
             </div>
@@ -337,7 +337,7 @@ const AdminServiceDetails: React.FC = () => {
               onClick={addSubsection}
               style={{
                 padding: "6px 14px",
-                background: "#001F5B",
+                background: "#101D2B",
                 color: "#ffffff",
                 border: "none",
                 fontWeight: 700,
@@ -363,7 +363,7 @@ const AdminServiceDetails: React.FC = () => {
                 }}
               >
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#f15a24" }}>
+                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#18A8E0" }}>
                     Subsection #{subIdx + 1}
                   </span>
                   <button
@@ -418,7 +418,7 @@ const AdminServiceDetails: React.FC = () => {
           target="_blank"
           style={{
             padding: "8px 16px",
-            background: "#f15a24",
+            background: "#18A8E0",
             color: "#ffffff",
             fontWeight: 700,
             fontSize: "12px",

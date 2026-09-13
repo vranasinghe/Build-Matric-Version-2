@@ -28,7 +28,7 @@ const MultiPageMobileMenu = ({ isMenuOpen, setIsMenuOpen }: any) => {
                 .mobile-menu ul li.active > a,
                 .mobile-menu ul li a.active,
                 .mobile-menu ul li a:hover {
-                    color: #263b82 !important;
+                    color: #18A8E0 !important;
                 }
             `}</style>
             <div className="mobile-menu-area">

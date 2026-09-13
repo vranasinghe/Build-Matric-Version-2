@@ -48,10 +48,10 @@ const AdminBackup: React.FC = () => {
   return (
     <div>
       <div style={{ marginBottom: "25px" }}>
-        <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+        <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
           System Tools
         </span>
-        <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+        <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
           Data Backup, Export & Factory Reset
         </h2>
       </div>
@@ -76,7 +76,7 @@ const AdminBackup: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "15px" }}>
           <div>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", margin: "0 0 4px 0" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", margin: "0 0 4px 0" }}>
               1. Export Full Site Configuration (.JSON)
             </h3>
             <p style={{ margin: 0, color: "#686e7d", fontSize: "13px" }}>
@@ -88,7 +88,7 @@ const AdminBackup: React.FC = () => {
             onClick={exportJSON}
             style={{
               padding: "10px 22px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -107,7 +107,7 @@ const AdminBackup: React.FC = () => {
 
       {/* Import Section */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           2. Import Configuration from Backup File
         </h3>
         <p style={{ margin: "0 0 16px 0", color: "#686e7d", fontSize: "13px" }}>
@@ -154,7 +154,7 @@ const AdminBackup: React.FC = () => {
           onClick={handleManualImport}
           style={{
             padding: "10px 22px",
-            background: "#f15a24",
+            background: "#18A8E0",
             color: "#ffffff",
             border: "none",
             fontWeight: 700,

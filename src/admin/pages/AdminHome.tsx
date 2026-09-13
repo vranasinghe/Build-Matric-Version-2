@@ -100,10 +100,10 @@ const AdminHome: React.FC = () => {
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header: HOME
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Home Page Components Editor
           </h2>
         </div>
@@ -140,7 +140,7 @@ const AdminHome: React.FC = () => {
             onClick={handleSaveAll}
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -178,7 +178,7 @@ const AdminHome: React.FC = () => {
         style={{
           display: "flex",
           gap: "2px",
-          borderBottom: "2px solid #001F5B",
+          borderBottom: "2px solid #101D2B",
           marginBottom: "20px",
           flexWrap: "wrap",
         }}
@@ -195,7 +195,7 @@ const AdminHome: React.FC = () => {
             onClick={() => setActiveTab(tab.id as any)}
             style={{
               padding: "11px 18px",
-              background: activeTab === tab.id ? "#001F5B" : "#f4f5f7",
+              background: activeTab === tab.id ? "#101D2B" : "#f4f5f7",
               color: activeTab === tab.id ? "#ffffff" : "#4a505e",
               border: "none",
               fontWeight: 700,
@@ -211,7 +211,7 @@ const AdminHome: React.FC = () => {
               style={{
                 fontSize: "10px",
                 padding: "2px 5px",
-                background: activeTab === tab.id ? "#f15a24" : "#e0e2e8",
+                background: activeTab === tab.id ? "#18A8E0" : "#e0e2e8",
                 color: activeTab === tab.id ? "#fff" : "#4a505e",
                 fontWeight: 700,
               }}
@@ -234,7 +234,7 @@ const AdminHome: React.FC = () => {
               onClick={addSlide}
               style={{
                 padding: "8px 16px",
-                background: "#f15a24",
+                background: "#18A8E0",
                 color: "#ffffff",
                 border: "none",
                 fontWeight: 700,
@@ -256,16 +256,16 @@ const AdminHome: React.FC = () => {
                 style={{
                   background: "#ffffff",
                   border: "1px solid #e7e8ec",
-                  borderLeft: "4px solid #f15a24",
+                  borderLeft: "4px solid #18A8E0",
                   padding: "20px",
                 }}
               >
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                    <span style={{ background: "#001F5B", color: "#ffffff", padding: "3px 8px", fontSize: "11px", fontWeight: 700 }}>
+                    <span style={{ background: "#101D2B", color: "#ffffff", padding: "3px 8px", fontSize: "11px", fontWeight: 700 }}>
                       Slide #{index + 1}
                     </span>
-                    <strong style={{ fontSize: "15px", color: "#001F5B" }}>{slide.title}</strong>
+                    <strong style={{ fontSize: "15px", color: "#101D2B" }}>{slide.title}</strong>
                   </div>
                   <button
                     type="button"
@@ -363,10 +363,10 @@ const AdminHome: React.FC = () => {
         <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
             <div>
-              <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+              <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                 CRUD
               </span>
-              <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+              <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                 Home Counter Statistics ({counters.length} Metrics)
               </h3>
             </div>
@@ -375,7 +375,7 @@ const AdminHome: React.FC = () => {
               onClick={addCounter}
               style={{
                 padding: "7px 15px",
-                background: "#f15a24",
+                background: "#18A8E0",
                 color: "#ffffff",
                 border: "none",
                 fontWeight: 700,
@@ -395,7 +395,7 @@ const AdminHome: React.FC = () => {
               <div key={c.id} className="col-md-6">
                 <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", padding: "16px" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-                    <span style={{ fontSize: "12px", fontWeight: 700, color: "#001F5B" }}>
+                    <span style={{ fontSize: "12px", fontWeight: 700, color: "#101D2B" }}>
                       Metric #{idx + 1}
                     </span>
                     <button
@@ -494,7 +494,7 @@ const AdminHome: React.FC = () => {
       {/* Tab 3: About Teaser (Full CRUD for Checklist) */}
       {activeTab === "about" && (
         <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px" }}>
-          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
             Homepage About Teaser Section
           </h3>
           <div className="row gy-3 mb-4">
@@ -558,7 +558,7 @@ const AdminHome: React.FC = () => {
           {/* Checklist CRUD */}
           <div style={{ borderTop: "1px solid #f0f1f4", paddingTop: "18px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
-              <strong style={{ fontSize: "14px", color: "#001F5B" }}>
+              <strong style={{ fontSize: "14px", color: "#101D2B" }}>
                 Highlights Checklist ({homeAbout.checklist.length} Points) [CRUD]
               </strong>
               <button
@@ -566,7 +566,7 @@ const AdminHome: React.FC = () => {
                 onClick={addChecklistItem}
                 style={{
                   padding: "5px 12px",
-                  background: "#001F5B",
+                  background: "#101D2B",
                   color: "#fff",
                   border: "none",
                   fontWeight: 700,
@@ -610,7 +610,7 @@ const AdminHome: React.FC = () => {
       {/* Tab 4: Renovation CTA */}
       {activeTab === "cta" && (
         <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px" }}>
-          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+          <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
             Home Renovation Callout Banner
           </h3>
           <div className="row gy-3">
@@ -633,7 +633,7 @@ const AdminHome: React.FC = () => {
                 type="text"
                 value={cta.title2}
                 onChange={(e) => setCta({ ...cta, title2: e.target.value })}
-                style={{ width: "100%", padding: "8px 10px", border: "1px solid #dcdfe5", fontSize: "13px", fontWeight: 700, color: "#f15a24" }}
+                style={{ width: "100%", padding: "8px 10px", border: "1px solid #dcdfe5", fontSize: "13px", fontWeight: 700, color: "#18A8E0" }}
               />
             </div>
             <div className="col-md-6">

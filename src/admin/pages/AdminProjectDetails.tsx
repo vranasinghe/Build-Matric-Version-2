@@ -99,10 +99,10 @@ const AdminProjectDetails: React.FC = () => {
     <form onSubmit={handleSave}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header: PROJECTS &gt; Project Details
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Project Details Components Editor
           </h2>
         </div>
@@ -126,7 +126,7 @@ const AdminProjectDetails: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -163,10 +163,10 @@ const AdminProjectDetails: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               1. Project Specifications ({formData.specs.length} Specifications)
             </h3>
           </div>
@@ -175,7 +175,7 @@ const AdminProjectDetails: React.FC = () => {
             onClick={addSpec}
             style={{
               padding: "7px 15px",
-              background: "#f15a24",
+              background: "#18A8E0",
               color: "#fff",
               border: "none",
               fontSize: "12px",
@@ -241,10 +241,10 @@ const AdminProjectDetails: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               2. Key Feature Highlights ({formData.featureHighlights.length} Highlights)
             </h3>
           </div>
@@ -253,7 +253,7 @@ const AdminProjectDetails: React.FC = () => {
             onClick={addFeature}
             style={{
               padding: "7px 15px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#fff",
               border: "none",
               fontSize: "12px",
@@ -273,7 +273,7 @@ const AdminProjectDetails: React.FC = () => {
             <div key={feat.id || fIdx} className="col-md-6">
               <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", padding: "16px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#f15a24" }}>
+                  <span style={{ fontSize: "12px", fontWeight: 700, color: "#18A8E0" }}>
                     Feature #{fIdx + 1}
                   </span>
                   <button
@@ -332,7 +332,7 @@ const AdminProjectDetails: React.FC = () => {
 
       {/* 3. Overview Narrative */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           3. Project Narrative & Case Study
         </h3>
         <div className="row gy-3">

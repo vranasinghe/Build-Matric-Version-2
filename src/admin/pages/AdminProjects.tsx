@@ -162,10 +162,10 @@ const AdminProjects: React.FC = () => {
     <form onSubmit={handleSaveAll}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header Section
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Projects Management
           </h2>
         </div>
@@ -189,7 +189,7 @@ const AdminProjects: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -227,7 +227,7 @@ const AdminProjects: React.FC = () => {
         style={{
           display: "flex",
           gap: "2px",
-          borderBottom: "2px solid #001F5B",
+          borderBottom: "2px solid #101D2B",
           marginBottom: "25px",
         }}
       >
@@ -236,7 +236,7 @@ const AdminProjects: React.FC = () => {
           onClick={() => setSubTab("showcase")}
           style={{
             padding: "12px 24px",
-            background: activeSubTab === "showcase" ? "#001F5B" : "#f4f5f7",
+            background: activeSubTab === "showcase" ? "#101D2B" : "#f4f5f7",
             color: activeSubTab === "showcase" ? "#ffffff" : "#4a505e",
             border: "none",
             fontWeight: 700,
@@ -255,7 +255,7 @@ const AdminProjects: React.FC = () => {
           onClick={() => setSubTab("details")}
           style={{
             padding: "12px 24px",
-            background: activeSubTab === "details" ? "#001F5B" : "#f4f5f7",
+            background: activeSubTab === "details" ? "#101D2B" : "#f4f5f7",
             color: activeSubTab === "details" ? "#ffffff" : "#4a505e",
             border: "none",
             fontWeight: 700,
@@ -276,7 +276,7 @@ const AdminProjects: React.FC = () => {
         <div>
           {/* Breadcrumb Banner */}
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               Page Header Banner
             </h3>
             <div className="row gy-3">
@@ -309,10 +309,10 @@ const AdminProjects: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "12px", marginBottom: "18px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                   Showcase Projects Portfolio ({projectsData.projects.length} Projects)
                 </h3>
               </div>
@@ -321,7 +321,7 @@ const AdminProjects: React.FC = () => {
                 onClick={addProject}
                 style={{
                   padding: "7px 15px",
-                  background: "#f15a24",
+                  background: "#18A8E0",
                   color: "#fff",
                   border: "none",
                   fontSize: "12px",
@@ -339,13 +339,13 @@ const AdminProjects: React.FC = () => {
             <div className="row gy-4">
               {projectsData.projects.map((proj, index) => (
                 <div key={proj.id || index} className="col-lg-6">
-                  <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", borderLeft: "4px solid #001F5B", padding: "18px" }}>
+                  <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", borderLeft: "4px solid #101D2B", padding: "18px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                        <span style={{ background: "#001F5B", color: "#fff", padding: "2px 6px", fontSize: "11px", fontWeight: 700 }}>
+                        <span style={{ background: "#101D2B", color: "#fff", padding: "2px 6px", fontSize: "11px", fontWeight: 700 }}>
                           #{index + 1}
                         </span>
-                        <span style={{ fontSize: "13px", fontWeight: 700, color: "#001F5B" }}>
+                        <span style={{ fontSize: "13px", fontWeight: 700, color: "#101D2B" }}>
                           {proj.title}
                         </span>
                       </div>
@@ -424,10 +424,10 @@ const AdminProjects: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                   Project Specifications ({detailsData.specs.length} Specifications)
                 </h3>
               </div>
@@ -436,7 +436,7 @@ const AdminProjects: React.FC = () => {
                 onClick={addSpec}
                 style={{
                   padding: "7px 15px",
-                  background: "#f15a24",
+                  background: "#18A8E0",
                   color: "#fff",
                   border: "none",
                   fontSize: "12px",
@@ -502,10 +502,10 @@ const AdminProjects: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                   Key Feature Highlights ({detailsData.featureHighlights.length} Highlights)
                 </h3>
               </div>
@@ -514,7 +514,7 @@ const AdminProjects: React.FC = () => {
                 onClick={addFeature}
                 style={{
                   padding: "7px 15px",
-                  background: "#001F5B",
+                  background: "#101D2B",
                   color: "#fff",
                   border: "none",
                   fontSize: "12px",
@@ -534,7 +534,7 @@ const AdminProjects: React.FC = () => {
                 <div key={feat.id || fIdx} className="col-md-6">
                   <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", padding: "16px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                      <span style={{ fontSize: "12px", fontWeight: 700, color: "#f15a24" }}>
+                      <span style={{ fontSize: "12px", fontWeight: 700, color: "#18A8E0" }}>
                         Feature #{fIdx + 1}
                       </span>
                       <button
@@ -593,7 +593,7 @@ const AdminProjects: React.FC = () => {
 
           {/* Overview Narrative & Banner */}
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               Project Narrative & Banner
             </h3>
             <div className="row gy-3">
@@ -642,7 +642,7 @@ const AdminProjects: React.FC = () => {
               target="_blank"
               style={{
                 padding: "8px 16px",
-                background: "#f15a24",
+                background: "#18A8E0",
                 color: "#ffffff",
                 fontWeight: 700,
                 fontSize: "12px",

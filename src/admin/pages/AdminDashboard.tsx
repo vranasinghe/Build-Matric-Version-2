@@ -95,10 +95,10 @@ const AdminDashboard: React.FC = () => {
       {/* Top Banner */}
       <div
         style={{
-          background: "linear-gradient(135deg, #001F5B 0%, #0c1527 100%)",
+          background: "linear-gradient(135deg, #101D2B 0%, #101D2B 100%)",
           color: "#ffffff",
           padding: "30px 35px",
-          borderLeft: "6px solid #f15a24",
+          borderLeft: "6px solid #18A8E0",
           marginBottom: "35px",
           display: "flex",
           justifyContent: "space-between",
@@ -111,7 +111,7 @@ const AdminDashboard: React.FC = () => {
           <span
             style={{
               backgroundColor: "rgba(241, 90, 36, 0.2)",
-              color: "#f15a24",
+              color: "#18A8E0",
               fontWeight: 700,
               fontSize: "12px",
               padding: "4px 10px",
@@ -136,7 +136,7 @@ const AdminDashboard: React.FC = () => {
           <button
             onClick={exportJSON}
             style={{
-              backgroundColor: "#f15a24",
+              backgroundColor: "#18A8E0",
               color: "#fff",
               border: "none",
               padding: "12px 22px",
@@ -191,13 +191,13 @@ const AdminDashboard: React.FC = () => {
             background: "#ffffff",
             padding: "20px",
             border: "1px solid #e7e8ec",
-            borderTop: "3px solid #001F5B",
+            borderTop: "3px solid #101D2B",
           }}
         >
           <div style={{ color: "#686e7d", fontSize: "12px", fontWeight: 700, textTransform: "uppercase" }}>
             Total Sections
           </div>
-          <div style={{ fontSize: "28px", fontWeight: 700, color: "#001F5B", marginTop: "4px" }}>
+          <div style={{ fontSize: "28px", fontWeight: 700, color: "#101D2B", marginTop: "4px" }}>
             9 Header Areas
           </div>
           <div style={{ fontSize: "12px", color: "#9aa0ac", marginTop: "4px" }}>All site pages covered</div>
@@ -208,13 +208,13 @@ const AdminDashboard: React.FC = () => {
             background: "#ffffff",
             padding: "20px",
             border: "1px solid #e7e8ec",
-            borderTop: "3px solid #f15a24",
+            borderTop: "3px solid #18A8E0",
           }}
         >
           <div style={{ color: "#686e7d", fontSize: "12px", fontWeight: 700, textTransform: "uppercase" }}>
             Services Configured
           </div>
-          <div style={{ fontSize: "28px", fontWeight: 700, color: "#f15a24", marginTop: "4px" }}>
+          <div style={{ fontSize: "28px", fontWeight: 700, color: "#18A8E0", marginTop: "4px" }}>
             {content.servicesPage.services.length} Specialized
           </div>
           <div style={{ fontSize: "12px", color: "#9aa0ac", marginTop: "4px" }}>With {content.serviceDetailsList.length} rich articles</div>
@@ -241,7 +241,7 @@ const AdminDashboard: React.FC = () => {
       </div>
 
       {/* Grid of All Header Sections */}
-      <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#001F5B", marginBottom: "18px" }}>
+      <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#101D2B", marginBottom: "18px" }}>
         Select a Header Section to Edit Components
       </h2>
 
@@ -270,7 +270,7 @@ const AdminDashboard: React.FC = () => {
                 <span
                   style={{
                     backgroundColor: "#f4f5f7",
-                    color: "#001F5B",
+                    color: "#101D2B",
                     fontSize: "11px",
                     fontWeight: 700,
                     padding: "3px 8px",
@@ -285,7 +285,7 @@ const AdminDashboard: React.FC = () => {
                     width: "36px",
                     height: "36px",
                     backgroundColor: "rgba(0, 31, 91, 0.06)",
-                    color: "#001F5B",
+                    color: "#101D2B",
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -307,11 +307,11 @@ const AdminDashboard: React.FC = () => {
               <div
                 style={{
                   fontSize: "12px",
-                  color: "#001F5B",
+                  color: "#101D2B",
                   fontWeight: 600,
                   backgroundColor: "#fbfbfc",
                   padding: "6px 10px",
-                  borderLeft: "2px solid #001F5B",
+                  borderLeft: "2px solid #101D2B",
                   marginBottom: "20px",
                 }}
               >
@@ -324,7 +324,7 @@ const AdminDashboard: React.FC = () => {
                 to={`/admin?tab=${sec.adminTab}`}
                 style={{
                   flex: 1,
-                  backgroundColor: "#001F5B",
+                  backgroundColor: "#101D2B",
                   color: "#ffffff",
                   textDecoration: "none",
                   padding: "10px 16px",
@@ -335,8 +335,8 @@ const AdminDashboard: React.FC = () => {
                   display: "inline-block",
                   transition: "background-color 0.2s ease",
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#f15a24")}
-                onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#001F5B")}
+                onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#18A8E0")}
+                onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#101D2B")}
               >
                 Edit Components
               </Link>

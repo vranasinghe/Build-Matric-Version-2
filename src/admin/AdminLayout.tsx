@@ -110,12 +110,12 @@ const AdminLayout: React.FC = () => {
         .admin-sidebar-item:hover {
           color: #ffffff;
           background-color: rgba(255, 255, 255, 0.06);
-          border-left-color: #f15a24;
+          border-left-color: #18A8E0;
         }
         .admin-sidebar-item.active {
           color: #ffffff;
-          background-color: #001F5B;
-          border-left-color: #f15a24;
+          background-color: #101D2B;
+          border-left-color: #18A8E0;
           font-weight: 700;
         }
         .admin-nav-badge {
@@ -129,11 +129,11 @@ const AdminLayout: React.FC = () => {
           letter-spacing: 0.5px;
         }
         .admin-sidebar-item.active .admin-nav-badge {
-          background: #f15a24;
+          background: #18A8E0;
           color: #ffffff;
         }
         input:focus, textarea:focus, select:focus {
-          border-color: #001F5B !important;
+          border-color: #101D2B !important;
           outline: 2px solid rgba(0, 31, 91, 0.2) !important;
         }
         @media (max-width: 991px) {
@@ -165,7 +165,7 @@ const AdminLayout: React.FC = () => {
           position: "sticky",
           top: 0,
           zIndex: 1000,
-          borderBottom: "2px solid #001F5B",
+          borderBottom: "2px solid #101D2B",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
@@ -201,13 +201,13 @@ const AdminLayout: React.FC = () => {
                 letterSpacing: "1px",
               }}
             >
-              BUILD<span style={{ color: "#f15a24" }}>METRIC</span>
+              BUILD<span style={{ color: "#18A8E0" }}>METRIC</span>
             </span>
             <span
               style={{
                 fontSize: "10px",
                 fontWeight: 700,
-                background: "#f15a24",
+                background: "#18A8E0",
                 color: "#ffffff",
                 padding: "2px 6px",
                 borderRadius: "2px",
@@ -237,7 +237,7 @@ const AdminLayout: React.FC = () => {
             onClick={exportJSON}
             title="Download JSON Backup"
             style={{
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "1px solid rgba(255, 255, 255, 0.15)",
               padding: "6px 12px",
@@ -258,7 +258,7 @@ const AdminLayout: React.FC = () => {
             to="/"
             target="_blank"
             style={{
-              background: "#f15a24",
+              background: "#18A8E0",
               color: "#ffffff",
               border: "none",
               padding: "6px 14px",
@@ -317,7 +317,7 @@ const AdminLayout: React.FC = () => {
                   onClick={() => handleTabChange(item.id)}
                   className={`admin-sidebar-item ${isActive ? "active" : ""}`}
                 >
-                  <i className={item.icon} style={{ fontSize: "16px", color: isActive ? "#f15a24" : "inherit" }} />
+                  <i className={item.icon} style={{ fontSize: "16px", color: isActive ? "#18A8E0" : "inherit" }} />
                   <span>{item.label}</span>
                   <span className="admin-nav-badge">{item.headerTag}</span>
                 </button>
@@ -364,11 +364,11 @@ const AdminLayout: React.FC = () => {
             }}
           >
             <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "13px", color: "#686e7d" }}>
-              <Link to="/admin" style={{ color: "#001F5B", textDecoration: "none", fontWeight: 600 }}>
+              <Link to="/admin" style={{ color: "#101D2B", textDecoration: "none", fontWeight: 600 }}>
                 Admin
               </Link>
               <span>/</span>
-              <span style={{ fontWeight: 700, color: "#f15a24" }}>{activeNavItem?.label}</span>
+              <span style={{ fontWeight: 700, color: "#18A8E0" }}>{activeNavItem?.label}</span>
             </div>
 
             {activeNavItem && activeNavItem.previewUrl && (
@@ -377,7 +377,7 @@ const AdminLayout: React.FC = () => {
                 target="_blank"
                 style={{
                   fontSize: "12px",
-                  color: "#001F5B",
+                  color: "#101D2B",
                   textDecoration: "none",
                   fontWeight: 600,
                   display: "flex",

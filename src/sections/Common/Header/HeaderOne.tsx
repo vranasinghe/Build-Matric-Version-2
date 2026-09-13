@@ -255,14 +255,14 @@ const HeaderOne = () => {
 
                 /* Hover state for unselected menu items */
                 .header-layout1 .main-menu > ul > li:not(.active) > a:hover {
-                    color: #263b82 !important;
-                    background-color: rgba(38, 59, 130, 0.06) !important;
+                    color: #18A8E0 !important;
+                    background-color: rgba(24, 168, 224, 0.06) !important;
                 }
 
-                /* Selected / Active Route state - Fully filled Navy Blue square/rectangle */
+                /* Selected / Active Route state - Architectural Blue filled block */
                 .header-layout1 .main-menu > ul > li.active > a,
                 .header-layout1 .main-menu > ul > li > a.active {
-                    background-color: #263b82 !important;
+                    background-color: #18A8E0 !important;
                     color: #ffffff !important;
                     font-weight: 700 !important;
                     border-radius: 0 !important;
@@ -275,7 +275,7 @@ const HeaderOne = () => {
                     margin-left: 6px !important;
                 }
                 .header-layout1 .main-menu ul li.menu-item-has-children:not(.active) > a:hover:after {
-                    color: #263b82 !important;
+                    color: #18A8E0 !important;
                 }
                 .header-layout1 .main-menu ul li.menu-item-has-children.active > a:after,
                 .header-layout1 .main-menu ul li.menu-item-has-children > a.active:after {
@@ -291,7 +291,7 @@ const HeaderOne = () => {
                 .header-layout1 .main-menu .sub-menu li a:hover,
                 .header-layout1 .main-menu .sub-menu li.active > a,
                 .header-layout1 .main-menu .sub-menu li > a.active {
-                    color: #263b82 !important;
+                    color: #18A8E0 !important;
                     padding-left: 8px !important;
                 }
 
@@ -308,7 +308,7 @@ const HeaderOne = () => {
                 /* Text Selection highlight for header section */
                 .header-layout1 ::selection,
                 .header-layout1 *::selection {
-                    background-color: #263b82 !important;
+                    background-color: #18A8E0 !important;
                     color: #ffffff !important;
                 }
             `}</style>
@@ -371,7 +371,7 @@ const HeaderOne = () => {
                                                     transition: "all 0.2s ease"
                                                 }}
                                                 onMouseEnter={(e) => {
-                                                    e.currentTarget.style.backgroundColor = "#f15a24";
+                                                    e.currentTarget.style.backgroundColor = "#18A8E0";
                                                     e.currentTarget.style.color = "#ffffff";
                                                 }}
                                                 onMouseLeave={(e) => {
@@ -390,7 +390,7 @@ const HeaderOne = () => {
                                             style={{
                                                 height: "30px",
                                                 padding: "0 10px",
-                                                backgroundColor: "#001F5B",
+                                                backgroundColor: "#101D2B",
                                                 color: "#ffffff",
                                                 display: "inline-flex",
                                                 alignItems: "center",
@@ -403,8 +403,8 @@ const HeaderOne = () => {
                                                 marginLeft: "6px",
                                                 transition: "background-color 0.2s ease"
                                             }}
-                                            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#f15a24"}
-                                            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#001F5B"}
+                                            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = "#18A8E0"}
+                                            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = "#101D2B"}
                                         >
                                             <i className="ri-settings-4-line" />
                                             <span>ADMIN</span>
@@ -427,11 +427,11 @@ const HeaderOne = () => {
                                                         border: "none",
                                                         padding: "2px 6px",
                                                         cursor: "pointer",
-                                                        color: lIdx === 0 ? "#001F5B" : "#686e7d",
+                                                        color: lIdx === 0 ? "#101D2B" : "#686e7d",
                                                         fontWeight: lIdx === 0 ? 700 : 600,
                                                         fontSize: "12px",
                                                         fontFamily: "'Titillium Web', sans-serif",
-                                                        borderBottom: lIdx === 0 ? "2px solid #f15a24" : "none"
+                                                        borderBottom: lIdx === 0 ? "2px solid #18A8E0" : "none"
                                                     }}
                                                 >
                                                     {lang.code}
@@ -457,11 +457,11 @@ const HeaderOne = () => {
                                                 width: "22px",
                                                 height: "22px",
                                                 borderRadius: "50%",
-                                                border: "1.5px solid #f15a24",
+                                                border: "1.5px solid #18A8E0",
                                                 display: "inline-flex",
                                                 alignItems: "center",
                                                 justifyContent: "center",
-                                                color: "#f15a24",
+                                                color: "#18A8E0",
                                                 fontSize: "12px",
                                                 flexShrink: 0
                                             }}>
@@ -475,11 +475,11 @@ const HeaderOne = () => {
                                                 width: "22px",
                                                 height: "22px",
                                                 borderRadius: "50%",
-                                                border: "1.5px solid #f15a24",
+                                                border: "1.5px solid #18A8E0",
                                                 display: "inline-flex",
                                                 alignItems: "center",
                                                 justifyContent: "center",
-                                                color: "#f15a24",
+                                                color: "#18A8E0",
                                                 fontSize: "12px",
                                                 flexShrink: 0
                                             }}>

@@ -223,10 +223,10 @@ const AdminServices: React.FC = () => {
     <form onSubmit={handleSaveAll}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header Section
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Services Management
           </h2>
         </div>
@@ -250,7 +250,7 @@ const AdminServices: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -288,7 +288,7 @@ const AdminServices: React.FC = () => {
         style={{
           display: "flex",
           gap: "2px",
-          borderBottom: "2px solid #001F5B",
+          borderBottom: "2px solid #101D2B",
           marginBottom: "25px",
         }}
       >
@@ -297,7 +297,7 @@ const AdminServices: React.FC = () => {
           onClick={() => setSubTab("main")}
           style={{
             padding: "12px 24px",
-            background: activeSubTab === "main" ? "#001F5B" : "#f4f5f7",
+            background: activeSubTab === "main" ? "#101D2B" : "#f4f5f7",
             color: activeSubTab === "main" ? "#ffffff" : "#4a505e",
             border: "none",
             fontWeight: 700,
@@ -316,7 +316,7 @@ const AdminServices: React.FC = () => {
           onClick={() => setSubTab("details")}
           style={{
             padding: "12px 24px",
-            background: activeSubTab === "details" ? "#001F5B" : "#f4f5f7",
+            background: activeSubTab === "details" ? "#101D2B" : "#f4f5f7",
             color: activeSubTab === "details" ? "#ffffff" : "#4a505e",
             border: "none",
             fontWeight: 700,
@@ -337,7 +337,7 @@ const AdminServices: React.FC = () => {
         <div>
           {/* Breadcrumb Banner */}
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               Hero Breadcrumb Banner
             </h3>
             <div className="row gy-3">
@@ -368,7 +368,7 @@ const AdminServices: React.FC = () => {
 
           {/* Intro Section */}
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               Section Intro
             </h3>
             <div className="row gy-3">
@@ -412,10 +412,10 @@ const AdminServices: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "20px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                   Service Cards ({pageData.services.length} Cards)
                 </h3>
               </div>
@@ -424,7 +424,7 @@ const AdminServices: React.FC = () => {
                 onClick={addServiceCard}
                 style={{
                   padding: "7px 15px",
-                  background: "#f15a24",
+                  background: "#18A8E0",
                   color: "#ffffff",
                   border: "none",
                   fontWeight: 700,
@@ -461,12 +461,12 @@ const AdminServices: React.FC = () => {
                               fontFamily: "var(--title-font)",
                               fontSize: "18px",
                               fontWeight: 700,
-                              color: "#f15a24",
+                              color: "#18A8E0",
                             }}
                           >
                             {service.num}
                           </span>
-                          <strong style={{ fontSize: "14px", color: "#001F5B" }}>Card #{sIndex + 1}</strong>
+                          <strong style={{ fontSize: "14px", color: "#101D2B" }}>Card #{sIndex + 1}</strong>
                         </div>
                         <button
                           type="button"
@@ -511,7 +511,7 @@ const AdminServices: React.FC = () => {
                       {/* Deliverables List CRUD */}
                       <div>
                         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                          <span style={{ fontSize: "12px", fontWeight: 700, color: "#001F5B" }}>
+                          <span style={{ fontSize: "12px", fontWeight: 700, color: "#101D2B" }}>
                             Deliverables / Scopes ({service.items.length}) [CRUD]
                           </span>
                           <button
@@ -519,7 +519,7 @@ const AdminServices: React.FC = () => {
                             onClick={() => addDeliverable(sIndex)}
                             style={{
                               padding: "3px 8px",
-                              background: "#001F5B",
+                              background: "#101D2B",
                               color: "#ffffff",
                               border: "none",
                               fontSize: "11px",
@@ -568,10 +568,10 @@ const AdminServices: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "18px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                   Key Process Benefits ({pageData.benefitsList.length} Steps)
                 </h3>
               </div>
@@ -580,7 +580,7 @@ const AdminServices: React.FC = () => {
                 onClick={addBenefit}
                 style={{
                   padding: "7px 15px",
-                  background: "#001F5B",
+                  background: "#101D2B",
                   color: "#fff",
                   border: "none",
                   fontWeight: 700,
@@ -630,7 +630,7 @@ const AdminServices: React.FC = () => {
                           fontFamily: "var(--title-font)",
                           fontSize: "20px",
                           fontWeight: 700,
-                          color: "#f15a24",
+                          color: "#18A8E0",
                         }}
                       >
                         {benefit.number}
@@ -698,10 +698,10 @@ const AdminServices: React.FC = () => {
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "20px", marginBottom: "25px" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
               <div>
-                <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                   CRUD
                 </span>
-                <label style={{ fontSize: "14px", fontWeight: 700, color: "#001F5B" }}>
+                <label style={{ fontSize: "14px", fontWeight: 700, color: "#101D2B" }}>
                   Select Service Article To Edit ({detailArticles.length} Total Articles)
                 </label>
               </div>
@@ -710,7 +710,7 @@ const AdminServices: React.FC = () => {
                 onClick={addDetailArticle}
                 style={{
                   padding: "7px 15px",
-                  background: "#f15a24",
+                  background: "#18A8E0",
                   color: "#fff",
                   border: "none",
                   fontWeight: 700,
@@ -733,9 +733,9 @@ const AdminServices: React.FC = () => {
                   onClick={() => setSelectedDetailIndex(idx)}
                   style={{
                     padding: "10px 14px",
-                    background: selectedDetailIndex === idx ? "#001F5B" : "#f4f5f7",
+                    background: selectedDetailIndex === idx ? "#101D2B" : "#f4f5f7",
                     color: selectedDetailIndex === idx ? "#ffffff" : "#333333",
-                    border: selectedDetailIndex === idx ? "2px solid #f15a24" : "1px solid #e0e2e8",
+                    border: selectedDetailIndex === idx ? "2px solid #18A8E0" : "1px solid #e0e2e8",
                     fontWeight: 700,
                     fontSize: "13px",
                     cursor: "pointer",
@@ -744,7 +744,7 @@ const AdminServices: React.FC = () => {
                     gap: "8px",
                   }}
                 >
-                  <span style={{ color: selectedDetailIndex === idx ? "#f15a24" : "#888" }}>{srv.num}</span>
+                  <span style={{ color: selectedDetailIndex === idx ? "#18A8E0" : "#888" }}>{srv.num}</span>
                   {srv.tabTitle}
                 </button>
               ))}
@@ -774,7 +774,7 @@ const AdminServices: React.FC = () => {
 
           {/* Editor for Selected Service Article */}
           <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
               Article Details & Content [Update]
             </h3>
 
@@ -853,10 +853,10 @@ const AdminServices: React.FC = () => {
             <div style={{ borderTop: "1px solid #f0f1f4", paddingTop: "20px" }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px" }}>
                 <div>
-                  <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+                  <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
                     CRUD
                   </span>
-                  <h4 style={{ fontSize: "15px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+                  <h4 style={{ fontSize: "15px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
                     Subsections & Deliverables ({selectedArticle.subsections.length} Items)
                   </h4>
                 </div>
@@ -865,7 +865,7 @@ const AdminServices: React.FC = () => {
                   onClick={addSubsection}
                   style={{
                     padding: "6px 14px",
-                    background: "#001F5B",
+                    background: "#101D2B",
                     color: "#ffffff",
                     border: "none",
                     fontWeight: 700,
@@ -891,7 +891,7 @@ const AdminServices: React.FC = () => {
                     }}
                   >
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                      <span style={{ fontSize: "12px", fontWeight: 700, color: "#f15a24" }}>
+                      <span style={{ fontSize: "12px", fontWeight: 700, color: "#18A8E0" }}>
                         Subsection #{subIdx + 1}
                       </span>
                       <button
@@ -946,7 +946,7 @@ const AdminServices: React.FC = () => {
               target="_blank"
               style={{
                 padding: "8px 16px",
-                background: "#f15a24",
+                background: "#18A8E0",
                 color: "#ffffff",
                 fontWeight: 700,
                 fontSize: "12px",

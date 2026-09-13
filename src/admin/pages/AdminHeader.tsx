@@ -134,10 +134,10 @@ const AdminHeader: React.FC = () => {
     <form onSubmit={handleSave}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "25px", flexWrap: "wrap", gap: "15px" }}>
         <div>
-          <span style={{ fontSize: "12px", color: "#f15a24", fontWeight: 700, textTransform: "uppercase" }}>
+          <span style={{ fontSize: "12px", color: "#18A8E0", fontWeight: 700, textTransform: "uppercase" }}>
             Header Section
           </span>
-          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#001F5B", margin: "4px 0 0 0" }}>
+          <h2 style={{ fontSize: "24px", fontWeight: 700, color: "#101D2B", margin: "4px 0 0 0" }}>
             Header & Top Bar Editor
           </h2>
         </div>
@@ -161,7 +161,7 @@ const AdminHeader: React.FC = () => {
             type="submit"
             style={{
               padding: "10px 24px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#ffffff",
               border: "none",
               fontWeight: 700,
@@ -198,10 +198,10 @@ const AdminHeader: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "18px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               1. Main Navigation Menu Links ({formData.navLinks.length} Items)
             </h3>
           </div>
@@ -210,7 +210,7 @@ const AdminHeader: React.FC = () => {
             onClick={addNavLink}
             style={{
               padding: "7px 15px",
-              background: "#f15a24",
+              background: "#18A8E0",
               color: "#fff",
               border: "none",
               fontWeight: 700,
@@ -290,10 +290,10 @@ const AdminHeader: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "18px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               2. Supported Languages Switcher ({formData.languages.length} Languages)
             </h3>
           </div>
@@ -302,7 +302,7 @@ const AdminHeader: React.FC = () => {
             onClick={addLanguage}
             style={{
               padding: "7px 15px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#fff",
               border: "none",
               fontWeight: 700,
@@ -366,7 +366,7 @@ const AdminHeader: React.FC = () => {
 
       {/* Group 3: Logo & Branding */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           3. Logo & Branding
         </h3>
         <div className="row gy-3">
@@ -394,7 +394,7 @@ const AdminHeader: React.FC = () => {
 
       {/* Group 4: Top Bar Contact & Location */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           4. Top Bar Contact & Working Hours
         </h3>
         <div className="row gy-3">
@@ -447,7 +447,7 @@ const AdminHeader: React.FC = () => {
 
       {/* Group 5: Region Settings */}
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
-        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
+        <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px", marginBottom: "18px" }}>
           5. Region Settings
         </h3>
         <div className="row gy-3">
@@ -483,10 +483,10 @@ const AdminHeader: React.FC = () => {
       <div style={{ background: "#ffffff", border: "1px solid #e7e8ec", padding: "25px", marginBottom: "25px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "18px", borderBottom: "1px solid #f0f1f4", paddingBottom: "10px" }}>
           <div>
-            <span style={{ background: "#001F5B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
+            <span style={{ background: "#101D2B", color: "#fff", padding: "3px 8px", fontSize: "11px", fontWeight: 700, marginRight: "8px" }}>
               CRUD
             </span>
-            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#001F5B", display: "inline-block", margin: 0 }}>
+            <h3 style={{ fontSize: "16px", fontWeight: 700, color: "#101D2B", display: "inline-block", margin: 0 }}>
               6. Social Media Accounts ({formData.socialLinks.length} Platforms)
             </h3>
           </div>
@@ -495,7 +495,7 @@ const AdminHeader: React.FC = () => {
             onClick={addSocial}
             style={{
               padding: "7px 15px",
-              background: "#001F5B",
+              background: "#101D2B",
               color: "#fff",
               border: "none",
               fontWeight: 700,
@@ -516,8 +516,8 @@ const AdminHeader: React.FC = () => {
               <div style={{ background: "#fbfbfc", border: "1px solid #e7e8ec", padding: "16px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "10px" }}>
                   <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                    <i className={soc.icon} style={{ fontSize: "18px", color: "#f15a24" }} />
-                    <span style={{ fontSize: "12px", fontWeight: 700, color: "#001F5B" }}>Platform #{idx + 1}</span>
+                    <i className={soc.icon} style={{ fontSize: "18px", color: "#18A8E0" }} />
+                    <span style={{ fontSize: "12px", fontWeight: 700, color: "#101D2B" }}>Platform #{idx + 1}</span>
                   </div>
                   <button
                     type="button"
