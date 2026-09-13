@@ -45,8 +45,11 @@ export interface HeroSlide {
 export interface CounterItem {
   id: string;
   number: number;
+  prefix?: string;
   suffix: string;
   label: string;
+  sublabel?: string;
+  icon?: string;
 }
 
 export interface HomeAboutContent {

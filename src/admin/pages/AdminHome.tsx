@@ -414,7 +414,19 @@ const AdminHome: React.FC = () => {
                     </button>
                   </div>
                   <div className="row gy-2">
-                    <div className="col-6">
+                    <div className="col-3">
+                      <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
+                        Prefix (e.g. $)
+                      </label>
+                      <input
+                        type="text"
+                        value={c.prefix || ""}
+                        placeholder="$"
+                        onChange={(e) => handleCounterChange(idx, "prefix", e.target.value)}
+                        style={{ width: "100%", padding: "7px 10px", border: "1px solid #dcdfe5", fontSize: "14px", fontWeight: 700 }}
+                      />
+                    </div>
+                    <div className="col-5">
                       <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
                         Number Value [Update]
                       </label>
@@ -425,9 +437,9 @@ const AdminHome: React.FC = () => {
                         style={{ width: "100%", padding: "7px 10px", border: "1px solid #dcdfe5", fontSize: "14px", fontWeight: 700 }}
                       />
                     </div>
-                    <div className="col-6">
+                    <div className="col-4">
                       <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
-                        Suffix (e.g. +, %, k) [Update]
+                        Suffix (e.g. +, B+, %)
                       </label>
                       <input
                         type="text"
@@ -438,12 +450,36 @@ const AdminHome: React.FC = () => {
                     </div>
                     <div className="col-12">
                       <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
-                        Description Label [Update]
+                        Primary Title / Label [Update]
                       </label>
                       <input
                         type="text"
                         value={c.label}
                         onChange={(e) => handleCounterChange(idx, "label", e.target.value)}
+                        style={{ width: "100%", padding: "7px 10px", border: "1px solid #dcdfe5", fontSize: "13px", fontWeight: 600 }}
+                      />
+                    </div>
+                    <div className="col-8">
+                      <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
+                        Consultancy Subtext / Detail
+                      </label>
+                      <input
+                        type="text"
+                        value={c.sublabel || ""}
+                        placeholder="e.g. Strategic Cost & Commercial Management"
+                        onChange={(e) => handleCounterChange(idx, "sublabel", e.target.value)}
+                        style={{ width: "100%", padding: "7px 10px", border: "1px solid #dcdfe5", fontSize: "13px" }}
+                      />
+                    </div>
+                    <div className="col-4">
+                      <label style={{ display: "block", fontSize: "11px", fontWeight: 600, color: "#686e7d", marginBottom: "2px" }}>
+                        Icon (RemixIcon)
+                      </label>
+                      <input
+                        type="text"
+                        value={c.icon || ""}
+                        placeholder="ri-funds-line"
+                        onChange={(e) => handleCounterChange(idx, "icon", e.target.value)}
                         style={{ width: "100%", padding: "7px 10px", border: "1px solid #dcdfe5", fontSize: "13px" }}
                       />
                     </div>
