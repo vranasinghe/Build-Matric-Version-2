@@ -35,7 +35,7 @@ const ServiceArea = () => {
                                     <ul style={{ listStyle: "none", padding: 0, margin: "16px 0 28px 0", flexGrow: 1 }}>
                                         {service.items.map((item, itemIdx) => (
                                             <li key={itemIdx} style={{ fontSize: "14px", color: "#666", marginBottom: "8px", display: "flex", alignItems: "flex-start", gap: "8px", lineHeight: "1.45" }}>
-                                                <i className="ri-checkbox-circle-fill" style={{ color: "#FF6600", fontSize: "15px", marginTop: "2px", flexShrink: 0 }}></i>
+                                                <i className="ri-checkbox-circle-fill" style={{ color: "#263b82", fontSize: "15px", marginTop: "2px", flexShrink: 0 }}></i>
                                                 <span>{item}</span>
                                             </li>
                                         ))}
