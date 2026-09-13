@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from "react";
 import { SiteContent } from "./types";
 import { defaultContent } from "./defaultContent";
 
-const STORAGE_KEY = "buildmetric_site_content_v2";
+const STORAGE_KEY = "buildmetric_site_content_v3";
 
 interface ContentContextType {
   content: SiteContent;
@@ -21,16 +21,10 @@ export const ContentProvider: React.FC<{ children: React.ReactNode }> = ({ child
     try {
       let saved = localStorage.getItem(STORAGE_KEY);
       if (!saved) {
-        const oldSaved = localStorage.getItem("buildmetric_site_content_v1");
+        const oldSaved = localStorage.getItem("buildmetric_site_content_v2") || localStorage.getItem("buildmetric_site_content_v1");
         if (oldSaved) {
           const oldParsed = JSON.parse(oldSaved);
-          // If old counter had "Special Machinery", adopt new professional metrics
-          const hasOldMachinery = oldParsed.homeCounter?.some((c: any) => 
-            c.label?.toLowerCase().includes("machinery") || c.label?.toLowerCase().includes("customers satisfied")
-          );
-          if (hasOldMachinery) {
-            oldParsed.homeCounter = defaultContent.homeCounter;
-          }
+          oldParsed.homeCounter = defaultContent.homeCounter;
           saved = JSON.stringify(oldParsed);
           localStorage.setItem(STORAGE_KEY, saved);
         }
@@ -38,7 +32,7 @@ export const ContentProvider: React.FC<{ children: React.ReactNode }> = ({ child
       if (saved) {
         const parsed = JSON.parse(saved);
         const hasOldMachinery = parsed.homeCounter?.some((c: any) => 
-          c.label?.toLowerCase().includes("machinery") || c.label?.toLowerCase().includes("customers satisfied")
+          c.label?.toLowerCase().includes("machinery")
         );
         // Merge with defaultContent to ensure any newly added keys exist
         return {
